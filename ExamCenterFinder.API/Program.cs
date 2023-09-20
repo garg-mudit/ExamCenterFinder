@@ -1,6 +1,7 @@
 using System.Reflection;
 
 using ExamCenterFinder.API.Data.Context;
+using ExamCenterFinder.API.Data.InitialSeed;
 
 using Microsoft.EntityFrameworkCore;
 
@@ -45,10 +46,28 @@ namespace ExamCenterFinder.API
 
             app.UseAuthorization();
 
-
             app.MapControllers();
 
+            RunMigration(builder);
+
             app.Run();
+        }
+
+        public static void RunMigration(WebApplicationBuilder builder)
+        {
+            var serviceProvider = builder.Services.BuildServiceProvider();
+
+            try
+            {
+                var context = serviceProvider.GetRequiredService<ApplicationDbContext>();
+                context.Database.Migrate();
+                DbSeed.SeedData(context);
+            }
+            catch (Exception ex)
+            {
+                var logger = serviceProvider.GetRequiredService<ILogger<Program>>();
+                logger.LogError(ex, "An exception Occured during migration");
+            }
         }
     }
 }

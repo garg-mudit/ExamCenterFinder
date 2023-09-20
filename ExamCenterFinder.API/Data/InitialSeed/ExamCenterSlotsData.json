@@ -1,0 +1,58 @@
+[
+  {
+    "SlotId": 1,
+    "ExamCenterId": 1,
+    "StartTime": "2023-09-22T08:00:00",
+    "EndTime": "2023-09-22T09:30:00",
+    "IsFilled": false
+  },
+  {
+    "SlotId": 2,
+    "ExamCenterId": 1,
+    "StartTime": "2023-09-22T09:30:00",
+    "EndTime": "2023-09-22T12:30:00",
+    "IsFilled": true
+  },
+  {
+    "SlotId": 3,
+    "ExamCenterId": 1,
+    "StartTime": "2023-09-22T12:30:00",
+    "EndTime": "2023-09-22T19:30:00",
+    "IsFilled": true
+  },
+  {
+    "SlotId": 4,
+    "ExamCenterId": 2,
+    "StartTime": "2023-09-22T08:00:00",
+    "EndTime": "2023-09-22T09:00:00",
+    "IsFilled": false
+  },
+  {
+    "SlotId": 5,
+    "ExamCenterId": 2,
+    "StartTime": "2023-09-22T09:30:00",
+    "EndTime": "2023-09-22T12:30:00",
+    "IsFilled": false
+  },
+  {
+    "SlotId": 6,
+    "ExamCenterId": 3,
+    "StartTime": "2023-09-22T09:30:00",
+    "EndTime": "2023-09-22T19:30:00",
+    "IsFilled": false
+  },
+  {
+    "SlotId": 7,
+    "ExamCenterId": 4,
+    "StartTime": "2023-09-23T08:00:00",
+    "EndTime": "2023-09-23T19:30:00",
+    "IsFilled": false
+  },
+  {
+    "SlotId": 8,
+    "ExamCenterId": 4,
+    "StartTime": "2023-09-23T09:30:00",
+    "EndTime": "2023-09-23T10:30:00",
+    "IsFilled": true
+  }
+]

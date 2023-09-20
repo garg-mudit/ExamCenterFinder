@@ -1,0 +1,34 @@
+[
+  {
+    "ExamCenterId": 1,
+    "Name": "Center 1",
+    "Address": "123 Main St",
+    "Latitude": 45.22738570006638,
+    "Longitude": -93.9960240952021,
+    "MaximumSeatingCapacity": 100
+  },
+  {
+    "ExamCenterId": 2,
+    "Name": "Center 2",
+    "Address": "456 Elm St",
+    "Latitude": 45.24,
+    "Longitude": -93.99,
+    "MaximumSeatingCapacity": 50
+  },
+  {
+    "ExamCenterId": 3,
+    "Name": "Center 3",
+    "Address": "789 Oak St",
+    "Latitude": 45.215,
+    "Longitude": -94.005,
+    "MaximumSeatingCapacity": 75
+  },
+  {
+    "ExamCenterId": 4,
+    "Name": "Center 4",
+    "Address": "101 Pine St",
+    "Latitude": 45.25,
+    "Longitude": -93.975,
+    "MaximumSeatingCapacity": 60
+  }
+]
