@@ -1,3 +1,4 @@
+using System.Reflection;
 
 using ExamCenterFinder.API.Data.Context;
 
@@ -17,6 +18,8 @@ namespace ExamCenterFinder.API
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
 
             // Ask the service provider for the configuration abstraction.
             var serviceProvider = builder.Services.BuildServiceProvider();
