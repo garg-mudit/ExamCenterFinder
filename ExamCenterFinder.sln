@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamCenterFinder.API", "ExamCenterFinder.API\ExamCenterFinder.API.csproj", "{33DFDCD8-175E-4C02-AC8D-7F03CBB6A9C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamCenterFinder.Tests", "ExamCenterFinder.Tests\ExamCenterFinder.Tests.csproj", "{146101CD-FB20-4E5A-B45E-7C3195FA787A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{33DFDCD8-175E-4C02-AC8D-7F03CBB6A9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33DFDCD8-175E-4C02-AC8D-7F03CBB6A9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33DFDCD8-175E-4C02-AC8D-7F03CBB6A9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{146101CD-FB20-4E5A-B45E-7C3195FA787A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146101CD-FB20-4E5A-B45E-7C3195FA787A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146101CD-FB20-4E5A-B45E-7C3195FA787A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146101CD-FB20-4E5A-B45E-7C3195FA787A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
